@@ -1,0 +1,102 @@
+@import url(styles.css);
+
+.detail-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    justify-self: center;
+    align-self: center;
+}
+
+.detail-img {
+    width: 100%;
+    height: 256px;
+    margin: 20px 0;
+}
+
+.detail-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.detail-section p {
+    font-size: 16px;
+    color: black;
+}
+
+.top h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--dark-color);
+    text-align: left;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.year {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.category {
+    font-size: 18px;
+    color: var(--dark-color);
+}
+
+.bottom h2 {
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
+.bottom h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: var(--dark-color);
+}
+
+.one {
+    background-image: url(assets/images/detail1.png);
+}
+
+.two {
+    background-image: url(assets/images/detail2.png);
+}
+
+.three {
+    background-image: url(assets/images/detail3.png);
+}
+
+@media (min-width: 1024px){
+    .detail-banner {
+        margin-top: 3%;
+
+    }
+
+    .container {
+        padding: 0 300px;
+    }
+
+    .detail-img {
+        width: 681px;
+        height: 460px;
+        justify-self: center;
+    }
+
+}

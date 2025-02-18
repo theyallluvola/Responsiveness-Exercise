@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="works.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="works.html" style="color: #FF6464;">Work</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+            <ul class="nav-links">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="works.html" style="color: #FF6464;">Work</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+            <img onclick=showSidebar() src="assets/icons/menu.png" alt="" class="ham-menu" />
+        </nav>
+    </header>
+
+    <div class="third-banner">
+        <div class="container">
+            <div class="third-section">
+                <div class="third-section-header"><h2>Work</h2></div>
+                <div class="featured-works">
+                    <div class="featured-work">
+                        <div class="featured-img one"></div>
+                        <div class="featured-right">
+                            <a href="detail.html"><h3>Designing Dashboards</h3></a>
+                            <div class="middle">
+                                <div class="year">2020</div>
+                                <div class="category">Dashboard</div>
+                            </div>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>                    
+                    </div>
+                    <div class="featured-work">
+                        <div class="featured-img two"></div>
+                        <div class="featured-right">
+                            <h3>Vibrant Portraits of 2020</h3>
+                            <div class="middle">
+                                <div class="year">2018</div>
+                                <div class="category">Illustration</div>
+                            </div>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                    <div class="featured-work">
+                        <div class="featured-img three"></div>
+                        <div class="featured-right">
+                            <h3>36 Days of Malayalam type</h3>
+                            <div class="middle">
+                                <div class="year">2020</div>
+                                <div class="category">Typography</div>
+                            </div>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="final-section">
+                <div class="socials">
+                    <a href="" class="logo"><img src="assets/icons/fb.png" alt="FB"></a>
+                    <a href="" class="logo"><img src="assets/icons/insta.png" alt="Insta"></a>
+                    <a href="" class="logo"><img src="assets/icons/Twitter.png" alt="Twitter"></a>
+                    <a href="" class="logo"><img src="assets/icons/Linkedin.png" alt="LinkedIn"></a>
+                </div>
+                <p class="copyright">Copyright ©2020 All rights reserved </p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
