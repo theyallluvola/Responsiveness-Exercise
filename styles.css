@@ -90,10 +90,6 @@ header nav ul li {
     padding: 0 24px;
 }
 
-.hero-banner {
-    height: 81vh;
-}
-
 .hero-section{
     display: flex;
     flex-direction: column-reverse;
@@ -375,6 +371,10 @@ header nav ul li {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .download-button {
+        margin: 0;
     }
 
     /* SECOND */
